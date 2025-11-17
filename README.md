@@ -1,52 +1,44 @@
-Product Inventory Management
-(Hibernate + JPA + PostgreSQL Beginner Project)
+# Product Inventory Management (Hibernate + JPA + PostgreSQL)
 
-This is a simple CRUD-based Hibernate project made for beginners.
-It demonstrates how to perform:
+This is a simple beginner-friendly Hibernate project that demonstrates
+basic CRUD operations (Create, Read, Update, Delete) using:
 
-✔ Add Product
-✔ Get Product by ID
-✔ Get All Products
-✔ Delete Product
+- Java
+- JPA (Java Persistence API)
+- Hibernate ORM
+- PostgreSQL Database
 
-using:
+This project is built in a very clean and easy way so that freshers can 
+understand Hibernate mapping, persistence.xml, Entity classes, and DAO layer.
 
-Java
+---
 
-Hibernate ORM
+## 🏗 Project Structure
 
-JPA
-
-PostgreSQL
-
-This project is built in the same style taught in classrooms (DAO + Entity + persistence.xml).
 src/
- └── com.jsp.productInventory
-        ├── Product.java
-        ├── ProductDao.java
-        └── ProductDriver.java
+ └─ com.jsp.productInventory
+      ├── Product.java
+      ├── ProductDao.java
+      ├── ProductDriver.java
+      └── persistence.xml
 
-META-INF/
- └── persistence.xml
+---
 
-lib/
- └── postgresql-42.x.x.jar
-Features
+## 🧱 Features
 
-Beginner-friendly CRUD operations
+✔ Add new product  
+✔ Fetch product by ID  
+✔ Fetch all products  
+✔ Delete product  
+✔ Auto-create tables using Hibernate  
+✔ Beginner-friendly DAO pattern  
 
-Hibernate auto table creation
+---
 
-PostgreSQL database integration
+## 🛢 Database Setup (PostgreSQL)
 
-Clean DAO pattern
-
-
-Beginner-friendly CRUD operations
-
-Hibernate auto table creation
-
-PostgreSQL database integration
+1. Install PostgreSQL
+2. Create database:
 
 Clean DAO pattern
 
